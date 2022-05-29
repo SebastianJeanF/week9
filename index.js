@@ -81,3 +81,5 @@ function weather() {
 	};
 	coords();
 }
+document.querySelector('#form').addEventListener('submit', weather);
+document.querySelector('#button').addEventListener('click', weather);
